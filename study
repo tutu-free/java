@@ -1,0 +1,68 @@
+• Java SE
+Java基础                     
+Java8新特性
+数据库MySQL与SQL语言
+JDBC
+• Java Web
+HTML基础与CSS
+JavaScript DOM与jQuery
+XML与Tomcat
+HTTP协议
+服务器端组件Servlet
+JSP
+EL表达式
+JISTL
+会话控制Cooke和Session
+服务器端组件Filter
+服务器端组件Listener
+国际化
+异步数据传输框架Ajax
+文件的上传下载 
+Web项目
+• JavaEE框架
+系统整体分层解耦框架spring
+轻量级Web框架springmvc
+轻量级持久层框架mybatis
+服务器操作系统Linux 
+内存数据库Redis
+项目架构、jar包管理工具Maven
+含Maven项目
+• JavaEE高级
+SVNIDEA开发工具
+分布式版本管理工具Git与GitHub
+Mysql高级
+Mycat实现MySQL的分布式、分库分表、读写分离
+Nginx反向代理、负载均衡、动静分离
+JVM内存模型、参数调优
+JUC线程高级
+分布式架构注册中心Zookeeper
+虚拟化应用容器Docker
+全文检索引李ElasticSearch
+消息队列RabbitMQ
+前端VUE/ES6
+分布式项目
+
+• Hadoop生态系统
+大数据存储框架Hadoop
+分布式服务管理框架zokeeper
+hadoop高可用HA
+数据仓库hive
+数据查询框架impala+kudu+clouderManager
+日志采集传输框架fume/idea
+分布式发布-订阅消息系统Kafka+监控器kafkaManager +kafkaMonitor
+分布式非关系型数据库Hbase+Hbase级索引创建 工具Phoenix
+任务调度框架Oozie
+任务调度框架Azkaban
+数据查询框架Kyin+druid
+大数据图形化工具Hue
+分布式版本管理工具Git与GitHub
+• Spark/Flink生态体系
+全文检索+日志搜集+数据可现化ELK
+多范式编程语言Scala
+SparkCore/Spark sQLSpark Streaming/spark mib
+Spark内核和优化
+电商平台项目
+JVM/UC
+python
+数据结构
+大数据框架Flink
