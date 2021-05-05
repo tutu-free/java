@@ -1,0 +1,59 @@
+{\rtf1\fbidis\ansi\ansicpg0\uc1\deff0\deflang0\deflangfe0{\fonttbl{\f0\fnil \uc2\u23435 \'cb\'ce\u20307 \'cc\'e5\uc1;}{\f1\fnil Consolas;}{\f2\fnil\fcharset134 \uc2\u23435 \'cb\'ce\u20307 \'cc\'e5\uc1;}}{\colortbl;\red0\green0\blue255;\red108\green0\blue73;\red0\green0\blue0;\red0\green0\blue128;\red0\green0\blue192;\red106\green62\blue62;\red127\green0\blue85;\red100\green100\blue100;\red0\green128\blue255;\red255\green255\blue255;}
+
+
+\pard\fi0\li0\qc\ri0\sb0\sa0\itap0 \plain \f2\b\lang2052\fs24\cf3 Employee
+\par \pard\fi0\li0\ql\ri0\sb0\sa0\itap0 
+\par \plain \f1\b\fs28\cf2 package\plain \f1\fs28\cf3  \plain \f1\ul\fs28\cf3 com.atguigu.exer2\plain \f1\fs28\cf3 ;
+\par \plain \f1\fs28\cf4 /*
+\par  * \uc2\u23450 \'b6\'a8\u20041 \'d2\'e5\u19968 \'d2\'bb\u20010 \'b8\'f6Employee\u31867 \'c0\'e0\u65292 \'a3\'ac\u35813 \'b8\'c3\u31867 \'c0\'e0\u21253 \'b0\'fc\u21547 \'ba\'ac\u65306 \'a3\'ba\uc1
+\par private\uc2\u25104 \'b3\'c9\u21592 \'d4\'b1\u21464 \'b1\'e4\u37327 \'c1\'bfname,number,birthday\u65292 \'a3\'ac\u20854 \'c6\'e4\u20013 \'d6\'d0birthday \u20026 \'ce\'aaMyDate\u31867 \'c0\'e0\u30340 \'b5\'c4\u23545 \'b6\'d4\u35937 \'cf\'f3\u65307 \'a3\'bb\uc1
+\par abstract\uc2\u26041 \'b7\'bd\u27861 \'b7\'a8earnings()\u65307 \'a3\'bb\uc1
+\par toString()\uc2\u26041 \'b7\'bd\u27861 \'b7\'a8\u36755 \'ca\'e4\u20986 \'b3\'f6\u23545 \'b6\'d4\u35937 \'cf\'f3\u30340 \'b5\'c4name,number\u21644 \'ba\'cdbirthday\u12290 \'a1\'a3\uc1
+\par \plain \f1\fs28 
+\par \plain \f1\fs28\cf4  * 
+\par  */
+\par \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 abstract\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 class\plain \f1\fs28\cf3  \plain \f1\ul\fs28\cf3 Employee\plain \f1\fs28\cf3  \{
+\par \tab \plain \f1\b\fs28\cf2 private\plain \f1\fs28\cf3  String \plain \f1\fs28\cf5 name\plain \f1\fs28\cf3 ;
+\par \tab \plain \f1\b\fs28\cf2 private\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 number\plain \f1\fs28\cf3 ;
+\par \tab \plain \f1\b\fs28\cf2 private\plain \f1\fs28\cf3  \plain \f1\ul\fs28\cf3 MyDate\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 birthday\plain \f1\fs28\cf3 ;
+\par \tab 
+\par \tab 
+\par \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  Employee(String \plain \f1\fs28\cf6 name\plain \f1\fs28\cf3 , \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf6 number\plain \f1\fs28\cf3 , \plain \f1\ul\fs28\cf3 MyDate\plain \f1\fs28\cf3  \plain \f1\fs28\cf6 birthday\plain \f1\fs28\cf3 ) \{
+\par \tab \tab \plain \f1\b\fs28\cf2 super\plain \f1\fs28\cf3 ();
+\par \tab \tab \plain \f1\b\fs28\cf2 this\plain \f1\fs28\cf3 .\plain \f1\fs28\cf5 name\plain \f1\fs28\cf3  = \plain \f1\fs28\cf6 name\plain \f1\fs28\cf3 ;
+\par \tab \tab \plain \f1\b\fs28\cf2 this\plain \f1\fs28\cf3 .\plain \f1\fs28\cf5 number\plain \f1\fs28\cf3  = \plain \f1\fs28\cf6 number\plain \f1\fs28\cf3 ;
+\par \tab \tab \plain \f1\b\ul\fs28\cf2 this\plain \f1\ul\fs28\cf3 .\plain \f1\ul\fs28\cf5 birthday\plain \f1\fs28\cf3  = \plain \f1\fs28\cf6 birthday\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \plain \f1\fs28 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  String getName() \{
+\par \tab \tab \plain \f1\b\fs28\cf7 return\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 name\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \plain \f1\fs28 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 void\plain \f1\fs28\cf3  setName(String \plain \f1\fs28\cf6 name\plain \f1\fs28\cf3 ) \{
+\par \tab \tab \plain \f1\b\fs28\cf2 this\plain \f1\fs28\cf3 .\plain \f1\fs28\cf5 name\plain \f1\fs28\cf3  = \plain \f1\fs28\cf6 name\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \plain \f1\fs28 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  getNumber() \{
+\par \tab \tab \plain \f1\b\fs28\cf7 return\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 number\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \plain \f1\fs28 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 void\plain \f1\fs28\cf3  setNumber(\plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf6 number\plain \f1\fs28\cf3 ) \{
+\par \tab \tab \plain \f1\b\fs28\cf2 this\plain \f1\fs28\cf3 .\plain \f1\fs28\cf5 number\plain \f1\fs28\cf3  = \plain \f1\fs28\cf6 number\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \plain \f1\fs28 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\ul\fs28\cf3 MyDate\plain \f1\fs28\cf3  getBirthday() \{
+\par \tab \tab \plain \f1\b\fs28\cf7 return\plain \f1\fs28\cf3  \plain \f1\ul\fs28\cf5 birthday\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \plain \f1\fs28 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 void\plain \f1\fs28\cf3  setBirthday(\plain \f1\ul\fs28\cf3 MyDate\plain \f1\fs28\cf3  \plain \f1\fs28\cf6 birthday\plain \f1\fs28\cf3 ) \{
+\par \tab \tab \plain \f1\b\ul\fs28\cf2 this\plain \f1\ul\fs28\cf3 .\plain \f1\ul\fs28\cf5 birthday\plain \f1\fs28\cf3  = \plain \f1\fs28\cf6 birthday\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \plain \f1\fs28 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 abstract\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 double\plain \f1\fs28\cf3  earnings();
+\par \plain \f1\fs28 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\fs28\cf8 @Override
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  String toString() \{
+\par \tab \tab \plain \f1\b\fs28\cf7 return\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf9 "name="\plain \f1\fs28\cf3  + \plain \f1\fs28\cf5 name\plain \f1\fs28\cf3  + \plain \f1\b\fs28\cf9 ", number="\plain \f1\fs28\cf3  + \plain \f1\fs28\cf5 number\plain \f1\fs28\cf3  + \plain \f1\b\fs28\cf9 ", birthday="\plain \f1\fs28\cf3  + \plain \f1\ul\fs28\cf5 birthday\plain \f1\fs28\cf3 .toDateString();
+\par \tab \}
+\par \tab \tab 
+\par \}\par}

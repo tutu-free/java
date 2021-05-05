@@ -1,0 +1,47 @@
+{\rtf1\fbidis\ansi\ansicpg0\uc1\deff0\deflang0\deflangfe0{\fonttbl{\f0\fnil \uc2\u23435 \'cb\'ce\u20307 \'cc\'e5\uc1;}{\f1\fnil Consolas;}{\f2\fnil\fcharset134 \uc2\u23435 \'cb\'ce\u20307 \'cc\'e5\uc1;}}{\colortbl;\red0\green0\blue255;\red108\green0\blue73;\red0\green0\blue0;\red0\green0\blue128;\red0\green0\blue192;\red255\green128\blue128;\red106\green62\blue62;\red127\green0\blue85;\red100\green100\blue100;\red0\green128\blue255;\red255\green255\blue255;}
+
+
+\pard\fi0\li0\qc\ri0\sb0\sa0\itap0 \plain \f2\b\lang2052\fs24\cf3 HourlyEmployee
+\par \pard\fi0\li0\ql\ri0\sb0\sa0\itap0 
+\par \plain \f1\b\fs28\cf2 package\plain \f1\fs28\cf3  \plain \f1\ul\fs28\cf3 com.atguigu.exer2\plain \f1\fs28\cf3 ;
+\par \plain \f1\fs28\cf4 /*
+\par  * \uc2\u21442 \'b2\'ce\u29031 \'d5\'d5SalariedEmployee\u31867 \'c0\'e0\u23450 \'b6\'a8\u20041 \'d2\'e5HourlyEmployee\u31867 \'c0\'e0\u65292 \'a3\'ac\u23454 \'ca\'b5\u29616 \'cf\'d6\u25353 \'b0\'b4\u23567 \'d0\'a1\u26102 \'ca\'b1\u35745 \'bc\'c6\u31639 \'cb\'e3\u24037 \'b9\'a4\u36164 \'d7\'ca\u30340 \'b5\'c4\u21592 \'d4\'b1\u24037 \'b9\'a4\u22788 \'b4\'a6\u29702 \'c0\'ed\u12290 \'a1\'a3\u35813 \'b8\'c3\u31867 \'c0\'e0\u21253 \'b0\'fc\u25324 \'c0\'a8\u65306 \'a3\'ba\uc1
+\par private\uc2\u25104 \'b3\'c9\u21592 \'d4\'b1\u21464 \'b1\'e4\u37327 \'c1\'bfwage\u21644 \'ba\'cdhour\u65307 \'a3\'bb\uc1
+\par \uc2\u23454 \'ca\'b5\u29616 \'cf\'d6\u29238 \'b8\'b8\u31867 \'c0\'e0\u30340 \'b5\'c4\u25277 \'b3\'e9\u35937 \'cf\'f3\u26041 \'b7\'bd\u27861 \'b7\'a8earnings(),\u35813 \'b8\'c3\u26041 \'b7\'bd\u27861 \'b7\'a8\u36820 \'b7\'b5\u22238 \'bb\'d8wage*hour\u20540 \'d6\'b5\u65307 \'a3\'bb\uc1
+\par toString()\uc2\u26041 \'b7\'bd\u27861 \'b7\'a8\u36755 \'ca\'e4\u20986 \'b3\'f6\u21592 \'d4\'b1\u24037 \'b9\'a4\u31867 \'c0\'e0\u22411 \'d0\'cd\u20449 \'d0\'c5\u24687 \'cf\'a2\u21450 \'bc\'b0\u21592 \'d4\'b1\u24037 \'b9\'a4\u30340 \'b5\'c4name\u65292 \'a3\'acnumber,birthday\u12290 \'a1\'a3\uc1
+\par \plain \f1\fs28 
+\par \plain \f1\fs28\cf4  */
+\par \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 class\plain \f1\fs28\cf3  \plain \f1\ul\fs28\cf3 HourlyEmployee\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 extends\plain \f1\fs28\cf3  \plain \f1\ul\fs28\cf3 Employee\plain \f1\fs28\cf3 \{
+\par \tab \plain \f1\b\fs28\cf2 private\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 wage\plain \f1\fs28\cf3 ;\plain \f1\b\fs28\cf6 //\uc2\u27599 \'c3\'bf\u23567 \'d0\'a1\u26102 \'ca\'b1\u30340 \'b5\'c4\u24037 \'b9\'a4\u36164 \'d7\'ca\uc1
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 private\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 hour\plain \f1\fs28\cf3 ;\plain \f1\b\fs28\cf6 //\uc2\u26376 \'d4\'c2\u24037 \'b9\'a4\u20316 \'d7\'f7\u30340 \'b5\'c4\u23567 \'d0\'a1\u26102 \'ca\'b1\u25968 \'ca\'fd\uc1
+\par \plain \f1\fs28 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  HourlyEmployee(String \plain \f1\fs28\cf7 name\plain \f1\fs28\cf3 , \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf7 number\plain \f1\fs28\cf3 , \plain \f1\ul\fs28\cf3 MyDate\plain \f1\fs28\cf3  \plain \f1\fs28\cf7 birthday\plain \f1\fs28\cf3 ) \{
+\par \tab \tab \plain \f1\b\fs28\cf2 super\plain \f1\fs28\cf3 (\plain \f1\fs28\cf7 name\plain \f1\fs28\cf3 , \plain \f1\fs28\cf7 number\plain \f1\fs28\cf3 , \plain \f1\fs28\cf7 birthday\plain \f1\fs28\cf3 );
+\par \tab \}
+\par \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  HourlyEmployee(String \plain \f1\fs28\cf7 name\plain \f1\fs28\cf3 , \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf7 number\plain \f1\fs28\cf3 , \plain \f1\ul\fs28\cf3 MyDate\plain \f1\fs28\cf3  \plain \f1\fs28\cf7 birthday\plain \f1\fs28\cf3 ,\plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf7 wage\plain \f1\fs28\cf3 ,\plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf7 hour\plain \f1\fs28\cf3 ) \{
+\par \tab \tab \plain \f1\b\fs28\cf2 super\plain \f1\fs28\cf3 (\plain \f1\fs28\cf7 name\plain \f1\fs28\cf3 , \plain \f1\fs28\cf7 number\plain \f1\fs28\cf3 , \plain \f1\fs28\cf7 birthday\plain \f1\fs28\cf3 );
+\par \tab \tab \plain \f1\b\fs28\cf2 this\plain \f1\fs28\cf3 .\plain \f1\fs28\cf5 wage\plain \f1\fs28\cf3  = \plain \f1\fs28\cf7 wage\plain \f1\fs28\cf3 ;
+\par \tab \tab \plain \f1\b\fs28\cf2 this\plain \f1\fs28\cf3 .\plain \f1\fs28\cf5 hour\plain \f1\fs28\cf3  = \plain \f1\fs28\cf7 hour\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \plain \f1\fs28 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  getWage() \{
+\par \tab \tab \plain \f1\b\fs28\cf8 return\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 wage\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 void\plain \f1\fs28\cf3  setWage(\plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf7 wage\plain \f1\fs28\cf3 ) \{
+\par \tab \tab \plain \f1\b\fs28\cf2 this\plain \f1\fs28\cf3 .\plain \f1\fs28\cf5 wage\plain \f1\fs28\cf3  = \plain \f1\fs28\cf7 wage\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  getHour() \{
+\par \tab \tab \plain \f1\b\fs28\cf8 return\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 hour\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 void\plain \f1\fs28\cf3  setHour(\plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf7 hour\plain \f1\fs28\cf3 ) \{
+\par \tab \tab \plain \f1\b\fs28\cf2 this\plain \f1\fs28\cf3 .\plain \f1\fs28\cf5 hour\plain \f1\fs28\cf3  = \plain \f1\fs28\cf7 hour\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \tab \plain \f1\fs28\cf9 @Override
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 double\plain \f1\fs28\cf3  \plain \f1\ul\fs28\cf3 earnings()\plain \f1\fs28\cf3  \{
+\par \tab \tab \plain \f1\b\fs28\cf8 return\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 wage\plain \f1\fs28\cf3  * \plain \f1\fs28\cf5 hour\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \tab 
+\par \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  String toString()\{
+\par \tab \tab \plain \f1\b\fs28\cf8 return\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf10 "HourlyEmployee["\plain \f1\fs28\cf3  + \plain \f1\b\fs28\cf2 super\plain \f1\fs28\cf3 .toString() + \plain \f1\b\fs28\cf10 "]"\plain \f1\fs28\cf3 ; 
+\par \tab \}
+\par \}\par}

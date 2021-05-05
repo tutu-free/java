@@ -1,0 +1,60 @@
+{\rtf1\fbidis\ansi\ansicpg0\uc1\deff0\deflang0\deflangfe0{\fonttbl{\f0\fnil \uc2\u23435 \'cb\'ce\u20307 \'cc\'e5\uc1;}{\f1\fnil Consolas;}{\f2\fnil\fcharset134 \uc2\u23435 \'cb\'ce\u20307 \'cc\'e5\uc1;}}{\colortbl;\red0\green0\blue255;\red108\green0\blue73;\red0\green0\blue0;\red0\green0\blue128;\red0\green0\blue192;\red106\green62\blue62;\red127\green0\blue85;\red0\green128\blue255;\red255\green255\blue255;}
+
+
+\pard\fi0\li0\qc\ri0\sb0\sa0\itap0 \plain \f2\b\lang2052\fs24\cf3 MyDate
+\par \pard\fi0\li0\ql\ri0\sb0\sa0\itap0 
+\par \plain \f1\b\fs28\cf2 package\plain \f1\fs28\cf3  \plain \f1\ul\fs28\cf3 com.atguigu.exer2\plain \f1\fs28\cf3 ;
+\par \plain \f1\fs28\cf4 /*
+\par  * MyDate\uc2\u31867 \'c0\'e0\u21253 \'b0\'fc\u21547 \'ba\'ac:\uc1
+\par private\uc2\u25104 \'b3\'c9\u21592 \'d4\'b1\u21464 \'b1\'e4\u37327 \'c1\'bfyear,month,day \u65307 \'a3\'bb\uc1
+\par toDateString()\uc2\u26041 \'b7\'bd\u27861 \'b7\'a8\u36820 \'b7\'b5\u22238 \'bb\'d8\u26085 \'c8\'d5\u26399 \'c6\'da\u23545 \'b6\'d4\u24212 \'d3\'a6\u30340 \'b5\'c4\u23383 \'d7\'d6\u31526 \'b7\'fb\u20018 \'b4\'ae\u65306 \'a3\'ba\uc1\plain \f1\ul\fs28\cf4 xxxx\plain \f1\fs28\cf4 \uc2\u24180 \'c4\'eaxx\u26376 \'d4\'c2xx\u26085 \'c8\'d5\uc1
+\par \plain \f1\fs28 
+\par \plain \f1\fs28\cf4  */
+\par \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 class\plain \f1\fs28\cf3  \plain \f1\ul\fs28\cf3 MyDate\plain \f1\fs28\cf3  \{
+\par \tab \plain \f1\b\fs28\cf2 private\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 year\plain \f1\fs28\cf3 ;
+\par \tab \plain \f1\b\fs28\cf2 private\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 month\plain \f1\fs28\cf3 ;
+\par \tab \plain \f1\b\fs28\cf2 private\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 day\plain \f1\fs28\cf3 ;
+\par \tab 
+\par \tab 
+\par \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  MyDate(\plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf6 year\plain \f1\fs28\cf3 , \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf6 month\plain \f1\fs28\cf3 , \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf6 day\plain \f1\fs28\cf3 ) \{
+\par \tab \tab \plain \f1\b\fs28\cf2 super\plain \f1\fs28\cf3 ();
+\par \tab \tab \plain \f1\b\fs28\cf2 this\plain \f1\fs28\cf3 .\plain \f1\fs28\cf5 year\plain \f1\fs28\cf3  = \plain \f1\fs28\cf6 year\plain \f1\fs28\cf3 ;
+\par \tab \tab \plain \f1\b\fs28\cf2 this\plain \f1\fs28\cf3 .\plain \f1\fs28\cf5 month\plain \f1\fs28\cf3  = \plain \f1\fs28\cf6 month\plain \f1\fs28\cf3 ;
+\par \tab \tab \plain \f1\b\fs28\cf2 this\plain \f1\fs28\cf3 .\plain \f1\fs28\cf5 day\plain \f1\fs28\cf3  = \plain \f1\fs28\cf6 day\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \plain \f1\fs28 
+\par 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  getYear() \{
+\par \tab \tab \plain \f1\b\fs28\cf7 return\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 year\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \plain \f1\fs28 
+\par 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 void\plain \f1\fs28\cf3  setYear(\plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf6 year\plain \f1\fs28\cf3 ) \{
+\par \tab \tab \plain \f1\b\fs28\cf2 this\plain \f1\fs28\cf3 .\plain \f1\fs28\cf5 year\plain \f1\fs28\cf3  = \plain \f1\fs28\cf6 year\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \plain \f1\fs28 
+\par 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  getMonth() \{
+\par \tab \tab \plain \f1\b\fs28\cf7 return\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 month\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \plain \f1\fs28 
+\par 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 void\plain \f1\fs28\cf3  setMonth(\plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf6 month\plain \f1\fs28\cf3 ) \{
+\par \tab \tab \plain \f1\b\fs28\cf2 this\plain \f1\fs28\cf3 .\plain \f1\fs28\cf5 month\plain \f1\fs28\cf3  = \plain \f1\fs28\cf6 month\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \plain \f1\fs28 
+\par 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  getDay() \{
+\par \tab \tab \plain \f1\b\fs28\cf7 return\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 day\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \plain \f1\fs28 
+\par 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  \plain \f1\b\fs28\cf2 void\plain \f1\fs28\cf3  setDay(\plain \f1\b\fs28\cf2 int\plain \f1\fs28\cf3  \plain \f1\fs28\cf6 day\plain \f1\fs28\cf3 ) \{
+\par \tab \tab \plain \f1\b\fs28\cf2 this\plain \f1\fs28\cf3 .\plain \f1\fs28\cf5 day\plain \f1\fs28\cf3  = \plain \f1\fs28\cf6 day\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \plain \f1\fs28 
+\par 
+\par \plain \f1\fs28\cf3 \tab \plain \f1\b\fs28\cf2 public\plain \f1\fs28\cf3  String toDateString()\{
+\par \tab \tab \plain \f1\b\fs28\cf7 return\plain \f1\fs28\cf3  \plain \f1\fs28\cf5 year\plain \f1\fs28\cf3  + \plain \f1\b\fs28\cf8 "\uc2\u24180 \'c4\'ea"\uc1\plain \f1\fs28\cf3  + \plain \f1\fs28\cf5 month\plain \f1\fs28\cf3  + \plain \f1\b\fs28\cf8 "\uc2\u26376 \'d4\'c2"\uc1\plain \f1\fs28\cf3  + \plain \f1\fs28\cf5 day\plain \f1\fs28\cf3  + \plain \f1\b\fs28\cf8 "\uc2\u26085 \'c8\'d5"\uc1\plain \f1\fs28\cf3 ;
+\par \tab \}
+\par \}\par}
